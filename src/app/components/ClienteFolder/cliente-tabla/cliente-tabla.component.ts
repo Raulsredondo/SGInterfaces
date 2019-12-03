@@ -5,10 +5,10 @@ import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-cliente-table',
-  templateUrl: './cliente.component.html',
-  styleUrls: ['./cliente.component.css']
+  templateUrl: './cliente-tabla.component.html',
+  styleUrls: ['./cliente-tabla.component.css']
 })
-export class ClienteComponent implements OnInit {
+export class ClienteTablaComponent implements OnInit {
 
   clientes: ClienteModel[] = [];
   cargando = false;
